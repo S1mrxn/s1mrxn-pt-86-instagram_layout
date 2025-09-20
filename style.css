@@ -1,0 +1,41 @@
+.post {                       /*container for the whole post*/
+  width: 350px;            /* 350px is how spaced it would be in an actual post */
+  border: 1px solid #ccc;  /* this makes the border visible, i originally did it to have a better idea of the divs, but i like how this looks */
+  margin: 20px auto;       /* 20px all around. note: px's work clock wise if we wanted dif amount on each side */
+}
+
+
+.post-top {
+  display: flex;                  /* everything in this div will be in a row instead of a colum */
+  justify-content: space-between;  /* adds space between profile icon and option icon*/
+  align-items: center;   /* vertically centers icons */
+  padding: 8px;   /* adds padding */
+}
+
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.post img {
+  width: 100%;  /* image fills the post width */
+  height: auto;
+  display: block;
+}
+
+.profile {
+    display: flex;    
+    align-items: center; 
+    gap: 8px;  
+}
+
+.username {
+    font-weight: bold;
+}
+
+.description {
+    padding: 0 10px;
+}
